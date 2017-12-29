@@ -52,3 +52,9 @@ span.cardprice span {
     color: orange;
     font-size: 20px;
 }
+span.qty input {
+    width: 40px;
+    border: 2px solid #666;
+    border-radius: 3px;
+    text-align: right;
+}

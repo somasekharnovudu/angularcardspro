@@ -4,7 +4,8 @@
   "desc":"Rose family best known for its sweet, pomaceous fruit, the apple",
   "quote":"Apple a day keeps Doctor Away",
   "price":"12",
-  "rating":"4.7"
+  "rating":"4.7",
+  "quantity":0
 },
 {
   "title":"Banana",
@@ -12,7 +13,8 @@
   "desc":"Banana passionfruit is the fruit of several plants in the genus Passiflora", 
   "quote":"Banana is high in Carbo and Potassium",
   "price":"30",
-  "rating":"4.3"
+  "rating":"4.3",
+  "quantity":0
 },
 {
   "title":"Leeche",
@@ -20,7 +22,8 @@
   "desc":"Tropical fruits cultivated and enjoyed in many tropical and subtropical regions",
   "quote":"Better Known for rich in Fibre and Taste",
   "price":"21",
-  "rating":"3.9"
+  "rating":"3.9",
+  "quantity":0
 },
 {
   "title":"Strawberries",
@@ -28,7 +31,8 @@
   "desc":"Strawberries is the berries of several species of woody vines in the genus Actinidia",
   "quote":"Inside Out as the seeds on outer of fruit",
   "price":"12.50",
-  "rating":"4.5"
+  "rating":"4.5",
+  "quantity":0
 },
 {
   "title":"Orange",
@@ -36,7 +40,8 @@
   "desc":"The orange is a hybrid between pomelo (Citrus maxima) and mandarin (Citrus reticulata",
   "quote":"Oranges are high in fibre and Vitamin C",
   "price":"15",
-  "rating":"4.1"
+  "rating":"4.1",
+  "quantity":0
 },
 {
   "title":"Tomato",
@@ -44,5 +49,6 @@
   "desc":"The tomato is the edible, often red, fruit of the plant Solanum lycopersicum",
   "quote":"Quite confused on Tomato,a fruit? or a Vegetable??",
   "price":"7",
-  "rating":"4.6"
+  "rating":"4.6",
+  "quantity":0
 }]

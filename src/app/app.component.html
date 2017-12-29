@@ -19,7 +19,7 @@
         </div>
         <div class="row">
             <div class="col-md-4 col-sm-6" *ngFor="let card of cards">
-                <cardComp [card]="card" [desclimit]="5" (addCart)="cartTotal($event)"></cardComp>
+                <cardComp [card]="card" [cart]="cartitems" [desclimit]="5" (addCart)="cartTotal($event)" (removeCart)='cartremoval($event)'></cardComp>
             </div>
         </div>
         <div class="row">
