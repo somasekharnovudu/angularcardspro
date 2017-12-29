@@ -1,0 +1,54 @@
+.eachcard{
+  border:1px solid #333;
+  border-radius: 5px;
+  padding:5px;
+  margin: 5px;
+  background: #eee;
+}
+figure.imgr {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+figure.imgr img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+main.cardtitle {
+    border: 1px solid #999;
+    padding: 5px;
+}
+main.cardtitle h4 {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: 700;
+}
+main.cardtitle p {
+    margin-left: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+footer.cardquote {
+    font-size: 11px;
+    text-transform: capitalize;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    margin-left: 5px;
+}
+span.cardprice {
+    margin-left: 25px;
+}
+footer.cardpriceetc {
+    padding: 5px;
+}
+span.cardbutton {
+    margin-left:40px;
+    margin-bottom: 5px;
+}
+span.cardprice span {
+    color: orange;
+    font-size: 20px;
+}

@@ -1,0 +1,42 @@
+<section class="cardsSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-6">
+                <div class="cartsummary">
+                    <div class="alert alert-success" *ngIf="cartitems.length">
+                        <p>Ding..!! Your Cart is Ready to Checkout..</p> 
+                    </div>
+                    <div class="alert alert-danger"*ngIf="!cartitems.length">
+                        <p>Oh..!! Your Cart is empty...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <div class="cartgoer" *ngIf="cartitems.length">
+                    <a href="#carttable" class="btn btn-primary">Go to Added List</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6" *ngFor="let card of cards">
+                <cardComp [card]="card" [desclimit]="5" (addCart)="cartTotal($event)"></cardComp>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <div class="carttable" id="carttable">
+                    <table class="table table-striped" *ngIf="cartitems.length">
+                        <tr>
+                            <th>Item</th>
+                            <th>Quantity</th>
+                        </tr>
+                        <tr *ngFor="let item of cartitems">
+                            <td>{{item?.title}}</td>
+                            <td>{{item?.quantity}} kg/s</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

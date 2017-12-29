@@ -1,0 +1,10 @@
+p {
+  font-family: Lato;
+}
+.carttable{
+  border:2px solid #eee;
+  margin:20px 0px;
+}
+.cartgoer,.cartsummary{
+  margin:10px 0px
+}

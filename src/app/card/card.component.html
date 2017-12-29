@@ -1,0 +1,23 @@
+<article class="eachcard">
+    <figure class="imgr">
+        <img [src]="card.imgurl" alt="Card Image">
+    </figure>
+    <main class="cardtitle">
+        <h4>{{card.title}}</h4>
+        <p> {{card.desc | summary:desclimit}} </p>
+        <footer class="cardquote">
+            <span>"{{card.quote | summary}}"</span>
+        </footer>
+    </main>
+    <footer class="cardpriceetc">
+        <span class="cardprice">
+            <strong>Price :</strong> <span>{{card.price | currency:INR:"3-.1-2"}}</span>/-Kg  
+        </span>
+        <span class="cardbutton">
+            <button class="btn btn-sm btn-primary" (click)="cartadding(card.title)">
+                <i class="glyphicon glyphicon-plus"></i>
+            </button>
+        </span>
+    </footer>
+</article>
+           
