@@ -32,6 +32,7 @@ export class AppComponent implements OnInit {
       if(catcher==0){
         this.cartitems.push({title:$event,quantity:1})
       }
+      this.cartitems=this.sorter(this.cartitems);
   }
   cartremoval($event){
     for(let i in this.cartitems){
@@ -44,5 +45,15 @@ export class AppComponent implements OnInit {
         }
       }
     }
+  }
+  sorter(arr:any[]):any[]{
+    let op_arr=arr.sort((a,b)=>{
+      if (a.title < b.title)
+        return -1;
+      if (a.title> b.title)
+        return 1;
+      return 0;
+    });
+    return op_arr;
   }
 }
