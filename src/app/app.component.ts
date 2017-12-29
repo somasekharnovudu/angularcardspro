@@ -32,8 +32,6 @@ export class AppComponent implements OnInit {
       if(catcher==0){
         this.cartitems.push({title:$event,quantity:1})
       }
-    console.log(this.cartitems);
-    console.log(this.cards);
   }
   cartremoval($event){
     for(let i in this.cartitems){

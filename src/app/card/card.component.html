@@ -18,7 +18,7 @@
                 <i class="glyphicon glyphicon-plus"></i>
             </button>
                 <span class="qty">
-                    <input type="text" [value]="card.quantity" #cardq (keyup.enter)="qchanger(cardq)">
+                    <input type="text" [value]="card.quantity" disabled>
                 </span>
             <button class="btn btn-sm btn-primary" (click)="cartremoving(card.title)" [disabled]="!card.quantity">
                 <i class="glyphicon glyphicon-minus"></i>
